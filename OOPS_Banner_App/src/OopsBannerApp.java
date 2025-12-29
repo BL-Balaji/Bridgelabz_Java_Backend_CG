@@ -1,5 +1,17 @@
 public class OopsBannerApp {
     public static void main(String[] args) {
-        System.out.println("OOPS");
+        String[] banner = {
+                " ***   ***  ****   *** ",
+                "*   * *   * *   * *   *",
+                "*   * *   * ****   *** ",
+                "*   * *   * *      *  ",
+                "*   * *   * *      *  ",
+                "*   * *   * *      *  ",
+                " ***   ***  *       ***"
+        };
+
+        for (String line : banner) {
+            System.out.println(line);
+        }
     }
 }
